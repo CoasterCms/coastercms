@@ -1,0 +1,13 @@
+/* bootstrap 2 fixes */
+.fileinput-button2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.fileinput-button2 input {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    cursor: pointer;
+}

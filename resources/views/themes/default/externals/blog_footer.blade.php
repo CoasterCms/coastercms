@@ -1,0 +1,1 @@
+{!! str_replace(array('</body>', '</html>'), array('', ''), PageBuilder::section('footer')) !!}

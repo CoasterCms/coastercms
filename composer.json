@@ -1,0 +1,25 @@
+{
+    "name": "web-feet/coastercms",
+    "description": "Coaster CMS",
+    "authors": [
+        {
+            "name": "Neil Jennings",
+            "email": "neil@web-feet.co.uk"
+        },
+        {
+            "name": "Daniel Chadwick",
+            "email": "dan@web-feet.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+        "web-feet/coasterframework": "5.2.*",
+        "barryvdh/laravel-ide-helper": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

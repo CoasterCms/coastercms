@@ -1,0 +1,1 @@
+<li>{!! HTML::link($crumb->url, $crumb->name) !!}</li>
