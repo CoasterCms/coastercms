@@ -1,6 +1,8 @@
 {
     "name": "web-feet/coastercms",
     "description": "Coaster CMS",
+    "license": "CC BY-NC-SA",
+    "type": "project",
     "authors": [
         {
             "name": "Neil Jennings",
