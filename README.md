@@ -5,7 +5,7 @@ The repository for CoasterCms (coastercms.org) a  Laravel based Content Manageme
 To install Coaster CMS using composer, run the following (after installing composer (composer.org):
 
 <code>
-composer create-projecgt web-feet/coastercms [project-name]
+composer create-project web-feet/coastercms [project-name]
 </code>
 
 Set up a MySQL database to host your content
