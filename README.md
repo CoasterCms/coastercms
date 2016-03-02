@@ -1,3 +1,4 @@
+<h1>Coaster CMS</h1>
 # coastercms
 The repository for Coaster Cms (coastercms.org) a  Laravel based Content Management System with advanced features and The Physical Web Integration.
 
