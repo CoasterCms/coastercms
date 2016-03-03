@@ -23,5 +23,8 @@
         "psr-4": {
             "App\\": "app/"
         }
-    }
+    },
+    "post-update-cmd": [
+        "php vendor/web-feet/coasterframework/updateAssets"
+    ]
 }
