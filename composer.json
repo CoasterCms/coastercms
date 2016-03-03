@@ -24,7 +24,9 @@
             "App\\": "app/"
         }
     },
-    "post-update-cmd": [
-        "php vendor/web-feet/coasterframework/updateAssets"
-    ]
+    "scripts": {
+        "post-update-cmd": [
+            "php vendor/web-feet/coasterframework/updateAssets"
+        ]
+    }
 }
