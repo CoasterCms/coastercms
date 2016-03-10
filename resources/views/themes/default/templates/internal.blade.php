@@ -12,7 +12,7 @@
                 {!! PageBuilder::block('content') !!}
             </div>
             <div class="col-sm-3">
-                {!! PageBuilder::block('image') !!}
+                {!! PageBuilder::block('image', array('class' => 'img-responsive')) !!}
             </div>
         </div>
         <!-- /.row -->
