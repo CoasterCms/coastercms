@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="logo" href="/">
-                {{ PageBuilder::block('logo', ['height' => '60px']) }}
+                {!! PageBuilder::block('logo', ['height' => '60px']) !!}
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">

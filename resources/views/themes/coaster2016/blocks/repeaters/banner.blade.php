@@ -7,7 +7,7 @@
         <div class="row">
         @endif
             <div class="col-sm-4">
-                {{ PageBuilder::block('banner_image', ['class' => 'responsive']) }}
+                {!!  PageBuilder::block('banner_image', ['class' => 'img-responsive']) !!}
             </div>
         @if ($is_last || $count % 4 == 0)
         </div>

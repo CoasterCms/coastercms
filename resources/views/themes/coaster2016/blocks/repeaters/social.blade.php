@@ -5,8 +5,8 @@
 @endif
 
             <div class="col-sm-3">
-                <a href="{!! PageBuilder::block('social_link') !!}">
-                    <i class="fa fa-youtube"></i>{{ PageBuilder::block('social_icon') }} &nbsp; {{ PageBuilder::block('social_name') }}
+                <a href="{{ PageBuilder::block('social_link') }}">
+                    {!! PageBuilder::block('social_icon') !!} &nbsp; {{ PageBuilder::block('social_name') }}
                 </a>
             </div>
 

@@ -24,7 +24,7 @@
                         @if (PageBuilder::block('slide_button_link') == '')
                             <button class="btn btn-default" id="scrollbutton">{{ PageBuilder::block('slide_button_text') }}{!! PageBuilder::block('slide_button_icon')?' &nbsp; '.PageBuilder::block('slide_button_icon'):'' !!}</button>
                         @else
-                            <a href="{{ PageBuilder::block('slide_button_link') }}}" class="btn btn-default">{{ PageBuilder::block('slide_button_text') }}{!! PageBuilder::block('slide_button_icon')?' &nbsp; '.PageBuilder::block('slide_button_icon'):'' !!}</a>
+                            <a href="{!! PageBuilder::block('slide_button_link') !!}" class="btn btn-default">{{ PageBuilder::block('slide_button_text') }}{!! PageBuilder::block('slide_button_icon')?' &nbsp; '.PageBuilder::block('slide_button_icon'):'' !!}</a>
                         @endif
                     </div>
                 </div>
