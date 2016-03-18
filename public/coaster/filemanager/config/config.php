@@ -131,7 +131,7 @@ $config = array(
 	| with final /
 	|
 	*/
-	'current_path' => '../../uploads/',
+	'current_path' => '../../../storage/uploads/',
 
 	/*
 	|--------------------------------------------------------------------------
