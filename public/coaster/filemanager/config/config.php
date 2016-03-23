@@ -54,7 +54,7 @@ function setSecureUpload($checkPath) {
 		}
 		if (strpos($subdir, trim($secureFolder, '/').'/') === 0) {
 			if (!is_dir(__DIR__.$secureStorage.'')) {
-				mkdir($secureStorage.$subdir);
+				@mkdir($secureStorage.$subdir);
 			}
 			$current_path = $secureStorage;
 			break;
