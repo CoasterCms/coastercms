@@ -14,11 +14,13 @@ if ($_SESSION['RF']["verify"] != "RESPONSIVEfilemanager")
 
 if (isset($_POST['path']))
 {
+   setSecureUpload($_POST['path']);
    $storeFolder = $_POST['path'];
    $storeFolderThumb = $_POST['path_thumb'];
 }
 else
 {
+   setSecureUpload($_POST['fldr']);
    $storeFolder = $current_path.$_POST["fldr"]; // correct for when IE is in Compatibility mode
    $storeFolderThumb = $thumbs_base_path.$_POST["fldr"];
 }

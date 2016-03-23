@@ -78,6 +78,7 @@ if (!empty($_SESSION['RF']["subfolder"]) && strpos($_SESSION['RF']["subfolder"],
 
 if ($rfm_subfolder != "" && $rfm_subfolder[strlen($rfm_subfolder)-1] != "/") { $rfm_subfolder .= "/"; }
 
+setSecureUpload($subdir);
 if (!file_exists($current_path.$rfm_subfolder.$subdir))
 {
     $subdir = '';

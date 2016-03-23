@@ -30,6 +30,7 @@ else
 	exit;
 }
 
+setSecureUpload($_POST['path']);
 $base = $current_path;
 $path = $base.$_POST['path'];
 $cycle = TRUE;

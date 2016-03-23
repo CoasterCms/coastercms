@@ -36,6 +36,32 @@ if (!\Illuminate\Support\Facades\Auth::action('filemanager')) {
 }
 // Note filemanagers trans fn has been converted to transfm to resolve conflicts with laravel
 
+function setSecureUpload($checkPath) {
+	global $current_path;
+
+	$secureStorage = '../../../storage/uploads/';
+	if (strpos($checkPath,$secureStorage) === 0) {
+		$subdir = substr($checkPath,strlen($secureStorage));
+	} else {
+		$subdir = $checkPath;
+	}
+
+	$secureFolders = explode(',', config('coaster::site.secure_folders'));
+
+	foreach ($secureFolders as $secureFolder) {
+		if ($secureFolder == '*') {
+			$secureFolder = '/';
+		}
+		if (strpos($subdir, trim($secureFolder, '/').'/') === 0) {
+			if (!is_dir(__DIR__.$secureStorage.'')) {
+				mkdir($secureStorage.$subdir);
+			}
+			$current_path = $secureStorage;
+			break;
+		}
+	}
+}
+
 function filemanager_set_permissions($override = null) {
 	global $delete_files,
 		   $create_folders,
@@ -131,7 +157,7 @@ $config = array(
 	| with final /
 	|
 	*/
-	'current_path' => '../../../storage/uploads/',
+	'current_path' => '../../uploads/',
 
 	/*
 	|--------------------------------------------------------------------------
