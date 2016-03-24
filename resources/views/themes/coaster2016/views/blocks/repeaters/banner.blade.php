@@ -7,7 +7,7 @@
         <div class="row">
         @endif
             <div class="col-sm-4">
-                <a href="{!! PageBuilder::block('banner_link', ['class' => 'img-responsive']) !!}">
+                <a href="{!! PageBuilder::block('banner_link') !!}">
                     {!! PageBuilder::block('banner_image', ['class' => 'img-responsive']) !!}
                 </a>
             </div>
