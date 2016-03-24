@@ -7,7 +7,9 @@
         <div class="row">
         @endif
             <div class="col-sm-4">
-                {!!  PageBuilder::block('banner_image', ['class' => 'img-responsive']) !!}
+                <a href="{!! PageBuilder::block('banner_link', ['class' => 'img-responsive']) !!}">
+                    {!! PageBuilder::block('banner_image', ['class' => 'img-responsive']) !!}
+                </a>
             </div>
         @if ($is_last || $count % 4 == 0)
         </div>

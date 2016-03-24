@@ -11,7 +11,7 @@
             </div>
         </div>
         <hr />
-        @if ($pageId = PageBuilder::block('sections_of'))
+        @if ($pageId = PageBuilder::block_selectpage('sections_of'))
         {!! PageBuilder::category(['page_id' => $pageId]) !!}
         @endif
     </div>

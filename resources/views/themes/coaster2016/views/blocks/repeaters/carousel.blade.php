@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1">
                         <{{ ($count == 1)?'h1':'h2' }}>{{ PageBuilder::block('slide_title') }}</{{ ($count == 1)?'h1':'h2' }}>
-                        <p>{{ PageBuilder::block('slide_text') }}</p>
+                        <p>{!! PageBuilder::block('slide_text') !!}</p>
                         @if (PageBuilder::block('slide_button_link') == '')
                             <button class="btn btn-default" id="scrollbutton">{{ PageBuilder::block('slide_button_text') }}{!! PageBuilder::block('slide_button_icon')?' &nbsp; '.PageBuilder::block('slide_button_icon'):'' !!}</button>
                         @else
