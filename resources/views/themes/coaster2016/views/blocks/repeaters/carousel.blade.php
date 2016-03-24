@@ -5,7 +5,7 @@
     <!-- Indicators -->
     <ol class="carousel-indicators">
         @for ($i = 0; $i < $total; $i++)
-        <li data-target="#carousel-example-generic" data-slide-to="{{ $i }}}"{{ ($i==0)?' class="active"':'' }}></li>
+            <li data-target="#carousel-example-generic" data-slide-to="{{ $i }}"{!! ($i==0)?' class="active"':'' !!}></li>
         @endfor
     </ol>
     @endif
