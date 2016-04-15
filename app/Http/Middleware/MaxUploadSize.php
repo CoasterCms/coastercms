@@ -22,7 +22,17 @@ class MaxUploadSize {
             }
 
             if ($contentSize > $maxUploadSize) {
-                throw new \Exception('upload too large, increase post_max_size, currently: '.ini_get('post_max_size').'');
+                throw new \Exception('The files uploaded exceed your post_max_size ini directive (limit is ' . ini_get('post_max_size') . ')');
+            }
+
+            $uploads = $request->allFiles();
+
+            if (!empty($uploads)) {
+                foreach ($uploads as $upload) {
+                    if ($upload->getError()) {
+                        throw new \Exception($upload->getErrorMessage());
+                    }
+                }
             }
 
         }
