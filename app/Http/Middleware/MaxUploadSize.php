@@ -26,18 +26,24 @@ class MaxUploadSize {
             }
 
             $uploads = $request->allFiles();
-
-            if (!empty($uploads)) {
-                foreach ($uploads as $upload) {
-                    if ($upload->getError()) {
-                        throw new \Exception($upload->getErrorMessage());
-                    }
-                }
-            }
+            $this->_uploadErrorCheck($uploads);
 
         }
 
         return $next($request);
+    }
+
+    private function _uploadErrorCheck($uploads)
+    {
+        if (!empty($uploads)) {
+            if (is_array($uploads)) {
+                foreach ($uploads as $upload) {
+                    $this->_uploadErrorCheck($upload);
+                }
+            } elseif ($uploads->getError()) {
+                throw new \Exception($uploads->getErrorMessage());
+            }
+        }
     }
 
 }
