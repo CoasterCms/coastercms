@@ -1,1 +1,0 @@
-{!! PageBuilder::menu('main_menu') !!}
