@@ -17,7 +17,7 @@ Set up a MySQL database to host your content
 
 Then follow the simple instructions in the install script.
 
-For more details go to <link>http://www.coastercms.org</link>
+For more details go to <link>https://www.coastercms.org/documentation/developer-documentation</link>
 
 
 ## Installing or adding to an existing Laravel project
