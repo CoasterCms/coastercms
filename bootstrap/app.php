@@ -33,7 +33,7 @@ $app->singleton(
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    Illuminate\Foundation\Console\Kernel::class
+    App\Console\Kernel::class
 );
 
 $app->singleton(

@@ -24,7 +24,7 @@ For more details go to <link>https://www.coastercms.org/documentation/developer-
 
 The steps are are as follows:
 
-1. Add "web-feet/coasterframework": "5.2.*" to the composer.json file and run composer update
+1. Add "web-feet/coasterframework": "5.3.*" to the composer.json file and run composer update
 2. Go to the root directory of your project. 
 3. Add the folders /coaster and /uploads to your public folder.
 4. Run the script <code>php vendor/web-feet/coasterframework/updateAssets</code>

@@ -15,8 +15,11 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*",
-        "web-feet/coasterframework": "5.2.*",
+        "laravel/framework": "5.3.*@dev",
+        "web-feet/coasterframework": "5.3.*@dev",
+
+    },
+    "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.1"
     },
     "autoload": {
