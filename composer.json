@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.3.*@dev",
-        "web-feet/coasterframework": "5.3.*@dev",
+        "laravel/framework": "5.3.*",
+        "web-feet/coasterframework": "5.3.*",
 
     },
     "require-dev": {
@@ -34,5 +34,6 @@
         "post-install-cmd": [
             "php vendor/web-feet/coasterframework/updateAssets"
         ]
-    }
+    },
+    "minimum-stability": "dev"
 }
