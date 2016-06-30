@@ -31,6 +31,7 @@
             "php vendor/web-feet/coasterframework/updateAssets"
         ],
         "post-install-cmd": [
+            "composer require laravelcollective/html --no-update",
             "php vendor/web-feet/coasterframework/updateAssets"
         ]
     },
