@@ -13,6 +13,12 @@
             "email": "dan@web-feet.co.uk"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Web-Feet/html"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.3.*",
