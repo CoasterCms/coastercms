@@ -22,6 +22,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.3.*",
+        "laravelcollective/html": "5.3.*",
         "web-feet/coasterframework": "5.3.*"
     },
     "require-dev": {
