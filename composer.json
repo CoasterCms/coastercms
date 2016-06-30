@@ -34,5 +34,6 @@
             "php vendor/web-feet/coasterframework/updateAssets"
         ]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
