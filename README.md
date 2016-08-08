@@ -17,11 +17,15 @@ Set up a MySQL database to host your content
 
 Make sure the follwoing folders/file are/is writable:
 
-*/public
-*/public/cache
-*/public/themes
-*/public/uploads
-*/.env
+/public
+
+/public/cache
+
+/public/themes
+
+/public/uploads
+
+/.env
 
 Then follow the simple instructions in the install script.
 
