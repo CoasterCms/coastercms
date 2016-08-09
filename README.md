@@ -15,7 +15,7 @@ composer create-project web-feet/coastercms [project-name]
 
 Set up a MySQL database to host your content
 
-Make sure the follwoing folders/file are/is writable:
+Make sure the following folders/file are/is writable:
 
 /public
 
