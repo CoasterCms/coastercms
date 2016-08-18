@@ -4,7 +4,7 @@ The repository for Coaster Cms (coastercms.org) a  Laravel based Content Managem
 
 <h2>Install</h2>
 
-(This isntallation assumes you have nginx/apache, php and MySQL already installed)
+(This installation assumes you have nginx/apache, php and MySQL already installed)
 
 Install Coaster CMS using composer:
 Get composer: 
