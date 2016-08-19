@@ -22,9 +22,17 @@
         "barryvdh/laravel-ide-helper": "^2.1"
     },
     "autoload": {
+        "classmap": [
+            "database"
+        ],
         "psr-4": {
             "App\\": "app/"
         }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
     },
     "scripts": {
         "post-update-cmd": [
