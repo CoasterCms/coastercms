@@ -13,16 +13,9 @@
             "email": "dan@web-feet.co.uk"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Web-Feet/html"
-        }
-    ],
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "laravelcollective/html": "5.3.*",
         "web-feet/coasterframework": "5.3.*"
     },
     "require-dev": {
