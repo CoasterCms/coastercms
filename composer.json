@@ -30,9 +30,7 @@
         }
     },
     "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php"
-        ]
+        "classmap": []
     },
     "scripts": {
         "post-update-cmd": [
