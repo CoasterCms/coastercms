@@ -1,13 +1,23 @@
 #Coaster CMS - web-feet/coastercms
 
-The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and The Physical Web Integration.
+The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and Physical Web integration.
 
 ##Table of Contents
 
+* [Features](#item0)
 * [Quick Start](#item1)
 * [Install](#item2)
 * [Adding to an existing project](#item3)
 * [Screenshots](#item4)
+
+<a name="item0"></a>
+##Features
+
+* Built with Laravel 5
+* Responsive file manager
+* WYSIWYG editor
+* Block based templating system
+* Beacon support
 
 <a name="item1"></a>
 ##Quick Start
