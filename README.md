@@ -1,6 +1,10 @@
 #Coaster CMS - web-feet/coastercms
 
-The repository for Coaster Cms (coastercms.org) a  Laravel based Content Management System with advanced features and The Physical Web Integration.
+The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and The Physical Web Integration.
+
+##Quick Install
+
+To get up and running with Coaster CMS as quickly as possible you can use Laravel's built-in php artisan serve command.
 
 ##Install
 
@@ -26,7 +30,6 @@ Make sure the following folders/file are/is writable:
 Then follow the simple instructions in the install script.
 
 For more details go to <link>https://www.coastercms.org/documentation/developer-documentation</link>
-
 
 ## Installing or adding to an existing Laravel project
 
