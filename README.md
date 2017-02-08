@@ -40,6 +40,6 @@ The steps are are as follows:
 
 ## Screenshots
 
-![alt tag](https://www.coastercms.org/public/themes/coaster/img/demo.png)
+![alt tag](https://www.coastercms.org/themes/coaster/img/demo.png)
 
-![alt tag](https://www.coastercms.org/public/themes/coaster/img/admin.png)
+![alt tag](https://www.coastercms.org/themes/coaster/img/admin.png)
