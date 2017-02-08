@@ -21,13 +21,6 @@ Set up a MySQL database to host your content
 Make sure the following folders/file are/is writable:
 
 /public
-
-/public/cache
-
-/public/themes
-
-/public/uploads
-
 /.env
 
 Then follow the simple instructions in the install script.
@@ -44,3 +37,9 @@ The steps are are as follows:
 3. Add the folders /coaster and /uploads to your public folder.
 4. Run the script <code>php vendor/web-feet/coasterframework/updateAssets</code>
 5. Add the service provider CoasterCms\CmsServiceProvider::class to your config/app.php file.
+
+## Screenshots
+
+![alt tag](https://www.coastercms.org/public/themes/coaster/img/demo.png)
+
+![alt tag](https://www.coastercms.org/public/themes/coaster/img/admin.png)
