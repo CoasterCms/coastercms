@@ -2,10 +2,18 @@
 
 The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and The Physical Web Integration.
 
+##Table of Contents
+
+* [Quick Install](#item1)
+* [Install](#item2)
+* [Screenshots](#item3)
+
+<a name="item1"></a>
 ##Quick Install
 
 To get up and running with Coaster CMS as quickly as possible you can use Laravel's built-in php artisan serve command.
 
+<a name="item2"></a>
 ##Install
 
 (This installation assumes you have nginx/apache, php and MySQL already installed)
@@ -41,6 +49,7 @@ The steps are are as follows:
 4. Run the script <code>php vendor/web-feet/coasterframework/updateAssets</code>
 5. Add the service provider CoasterCms\CmsServiceProvider::class to your config/app.php file.
 
+<a name="item3"></a>
 ## Screenshots
 
 Coaster CMS demo template.
