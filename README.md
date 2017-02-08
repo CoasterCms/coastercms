@@ -4,12 +4,12 @@ The repository for Coaster CMS (coastercms.org) a Laravel based Content Manageme
 
 ##Table of Contents
 
-* [Quick Install](#item1)
+* [Quick Start](#item1)
 * [Install](#item2)
 * [Screenshots](#item3)
 
 <a name="item1"></a>
-##Quick Install
+##Quick Start
 
 To get up and running with Coaster CMS as quickly as possible you can use Laravel's built-in php artisan serve command.
 
