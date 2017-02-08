@@ -41,7 +41,9 @@ The steps are are as follows:
 ## Screenshots
 
 Coaster CMS demo template.
+
 ![alt tag](https://www.coastercms.org/themes/coaster/img/demo.png)
 
 Coaster CMS dashboard.
+
 ![alt tag](https://www.coastercms.org/themes/coaster/img/admin.png)
