@@ -1,8 +1,8 @@
-<h1>Coaster CMS - web-feet/coastercms</h1>
+#Coaster CMS - web-feet/coastercms
 
 The repository for Coaster Cms (coastercms.org) a  Laravel based Content Management System with advanced features and The Physical Web Integration.
 
-<h2>Install</h2>
+##Install
 
 (This installation assumes you have nginx/apache, php and MySQL already installed)
 
