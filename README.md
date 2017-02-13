@@ -1,4 +1,4 @@
-<p align="center"><img src="https://www.coastercms.org/themes/coaster/img/logo.png"></p>
+<p align="center"><img src="https://www.coastercms.org/uploads/images/logo_coaster_RGB.jpg"></p>
 
 <p align="center">
   <a href="https://packagist.org/packages/web-feet/coastercms"><img src="https://poser.pugx.org/web-feet/coastercms/downloads.svg"></a>
