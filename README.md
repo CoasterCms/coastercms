@@ -1,4 +1,4 @@
-#Coaster CMS - web-feet/coastercms
+<p align="center">![alt tag](https://www.coastercms.org/themes/coaster/img/logo.png)</p>
 
 The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and Physical Web integration.
 
@@ -12,6 +12,8 @@ The repository for Coaster CMS (coastercms.org) a Laravel based Content Manageme
 
 <a name="item0"></a>
 ##Features
+
+We aim to make Coaster CMS as feature rich as possible. Built upon the Laravel PHP framework, Coaster CMS is both fast and secure. Create beautiful content with TinyMCE and take a look into the future with the Internet Of Things.
 
 * Built with Laravel 5
 * Responsive file manager
