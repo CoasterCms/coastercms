@@ -1,5 +1,7 @@
 <p align="center"><img src="https://www.coastercms.org/themes/coaster/img/logo.png"></p>
 
+[![License](https://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/web-feet/coastercms)
+
 The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and Physical Web integration.
 
 ##Table of Contents
