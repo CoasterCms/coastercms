@@ -1,4 +1,4 @@
-<p align="center">![alt tag](https://www.coastercms.org/themes/coaster/img/logo.png)</p>
+<p align="center"><img src="https://www.coastercms.org/themes/coaster/img/logo.png"></p>
 
 The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and Physical Web integration.
 
