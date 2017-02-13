@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://packagist.org/packages/web-feet/coastercms"><img src="https://poser.pugx.org/web-feet/coastercms/downloads.svg"></a>
   <a href="https://packagist.org/packages/web-feet/coastercms"><img src="https://poser.pugx.org/web-feet/coastercms/version.svg"></a>
-  <a href="https://packagist.org/packages/web-feet/coastercms"><img src="https://poser.pugx.org/web-feet/coastercms/license.svg"></a>
+  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://poser.pugx.org/web-feet/coastercms/license.svg"></a>
 </p>
 
 The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and Physical Web integration.
