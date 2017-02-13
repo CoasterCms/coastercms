@@ -29,7 +29,13 @@ We aim to make Coaster CMS as feature rich as possible. Built upon the Laravel P
 <a name="item1"></a>
 ##Quick Start
 
-To get up and running with Coaster CMS as quickly as possible you can use Laravel's built-in php artisan serve command.
+To get up and running with Coaster CMS as quickly as possible you can use Laravel's built-in php artisan serve command. Simply run the following command from your project's directory:
+
+<code>
+php artisan serve
+</code>
+
+This will take care of the web server side of things, but you'll still need to install and configure a local MySQL database.
 
 <a name="item2"></a>
 ##Install
