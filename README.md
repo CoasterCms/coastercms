@@ -10,7 +10,6 @@ The repository for Coaster CMS (coastercms.org) a Laravel based Content Manageme
 * [Quick Start](#item1)
 * [Install](#item2)
 * [Adding to an existing project](#item3)
-* [Screenshots](#item4)
 
 <a name="item0"></a>
 ##Features
@@ -64,14 +63,3 @@ The steps are are as follows:
 3. Add the folders /coaster and /uploads to your public folder.
 4. Run the script <code>php vendor/web-feet/coasterframework/updateAssets</code>
 5. Add the service provider CoasterCms\CmsServiceProvider::class to your config/app.php file.
-
-<a name="item4"></a>
-## Screenshots
-
-Coaster CMS demo template.
-
-![alt tag](https://www.coastercms.org/themes/coaster/img/demo.png)
-
-Coaster CMS dashboard.
-
-![alt tag](https://www.coastercms.org/themes/coaster/img/admin.png)
