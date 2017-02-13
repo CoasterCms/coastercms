@@ -66,7 +66,7 @@ For more details go to <link>https://www.coastercms.org/documentation/developer-
 <a name="item3"></a>
 ## Add to an Existing Project
 
-If you'd rather, you can also add Coaster CMS to an existing project:
+If you'd rather add Coaster CMS to an existing Laravel project, follow the steps through below:
 
 1. Add "web-feet/coasterframework": "5.3.*" to the composer.json file and run composer update
 2. Go to the root directory of your project. 
