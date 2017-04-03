@@ -8,7 +8,7 @@
 
 The repository for Coaster CMS (coastercms.org) a Laravel based Content Management System with advanced features and Physical Web integration.
 
-##Table of Contents
+## Table of Contents
 
 * [Features](#item0)
 * [Quick Start](#item1)
@@ -16,7 +16,7 @@ The repository for Coaster CMS (coastercms.org) a Laravel based Content Manageme
 * [Adding to an existing project](#item3)
 
 <a name="item0"></a>
-##Features
+## Features
 
 We aim to make Coaster CMS as feature rich as possible. Built upon the Laravel PHP framework, Coaster CMS is both fast and secure. Create beautiful content with TinyMCE and take a look into the future with the Internet Of Things.
 
@@ -27,7 +27,7 @@ We aim to make Coaster CMS as feature rich as possible. Built upon the Laravel P
 * Beacon support
 
 <a name="item1"></a>
-##Quick Start
+## Quick Start
 
 To get up and running with Coaster CMS as quickly as possible you can use Laravel's built-in php artisan serve command. Simply run the following command from your project's directory:
 
@@ -38,7 +38,7 @@ php artisan serve
 This will take care of the web server side of things, but you'll still need to install and configure a local MySQL database.
 
 <a name="item2"></a>
-##Install
+## Install
 
 (This installation assumes you have nginx/apache, php and MySQL already installed)
 
