@@ -2,6 +2,7 @@
     "name": "web-feet/coastercms",
     "description": "Coaster CMS",
     "license": "GPLv3",
+    "keywords": ["coaster", "cms", "laravel"],
     "type": "project",
     "authors": [
         {
@@ -15,11 +16,14 @@
     ],
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*",
-        "web-feet/coasterframework": "5.3.*"
+        "laravel/framework": "5.4.*",
+        "web-feet/coasterframework": "5.4.*"
     },
     "require-dev": {
-        "barryvdh/laravel-ide-helper": "^2.1"
+        "barryvdh/laravel-ide-helper": "^2.3",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
     },
     "autoload": {
         "classmap": [
@@ -30,17 +34,33 @@
         }
     },
     "autoload-dev": {
-        "classmap": []
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     },
     "scripts": {
-        "post-update-cmd": [
-            "php vendor/web-feet/coasterframework/updateAssets"
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
         ],
         "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize",
+            "php vendor/web-feet/coasterframework/updateAssets"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize",
             "php vendor/web-feet/coasterframework/updateAssets"
         ]
     },
     "config": {
-        "preferred-install": "dist"
-    }
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
