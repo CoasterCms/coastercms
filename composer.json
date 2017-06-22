@@ -48,12 +48,12 @@
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan optimize",
-            "php vendor/web-feet/coasterframework/updateAssets"
+            "php artisan coaster:update-assets"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize",
-            "php vendor/web-feet/coasterframework/updateAssets"
+            "php artisan coaster:update-assets"
         ]
     },
     "config": {
