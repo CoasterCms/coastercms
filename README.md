@@ -57,7 +57,7 @@ Set up a MySQL database to host your content
 
 Make sure the following folders/file are/is writable:
 
-* /public
+* /public/uploads
 
 * /.env
 
