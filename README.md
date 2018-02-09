@@ -20,7 +20,7 @@ The repository for Coaster CMS (coastercms.org) a Laravel based Content Manageme
 
 We aim to make Coaster CMS as feature rich as possible. Built upon the Laravel PHP framework, Coaster CMS is both fast and secure. Create beautiful content with TinyMCE and take a look into the future with the Internet Of Things.
 
-* Built with Laravel 5 (v5.4)
+* Built with Laravel 5 (v5.5)
 * Responsive file manager
 * WYSIWYG editor
 * Block based templating system
