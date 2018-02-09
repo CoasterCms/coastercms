@@ -1,7 +1,7 @@
 {
     "name": "web-feet/coastercms",
     "description": "Coaster CMS",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "keywords": ["coaster", "cms", "laravel"],
     "type": "project",
     "authors": [
@@ -15,15 +15,9 @@
         }
     ],
     "require": {
-        "php": ">=5.6.4",
-        "laravel/framework": "5.4.*",
-        "web-feet/coasterframework": "5.4.*"
-    },
-    "require-dev": {
-        "barryvdh/laravel-ide-helper": "^2.3",
-        "fzaninotto/faker": "~1.4",
-        "mockery/mockery": "0.9.*",
-        "phpunit/phpunit": "~5.7"
+        "php": ">=7.0",
+        "laravel/framework": "5.5.*",
+        "web-feet/coasterframework": "5.5.*"
     },
     "autoload": {
         "classmap": [
