@@ -15,8 +15,8 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "doctrine/dbal": "^2.10",
+        "php": ">=7.1",
+        "doctrine/dbal": "2.9.*",
         "laravel/framework": "5.8.*",
         "web-feet/coasterframework": "5.8.*"
     },
