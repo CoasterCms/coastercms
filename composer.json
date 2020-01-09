@@ -16,8 +16,9 @@
     ],
     "require": {
         "php": ">=7.0",
-        "laravel/framework": "5.5.*",
-        "web-feet/coasterframework": "5.5.*"
+        "doctrine/dbal": "^2.10",
+        "laravel/framework": "5.8.*",
+        "web-feet/coasterframework": "5.8.*"
     },
     "autoload": {
         "classmap": [
@@ -41,12 +42,10 @@
         ],
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "php artisan optimize",
             "php artisan coaster:update-assets"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "php artisan optimize",
             "php artisan coaster:update-assets"
         ]
     },
