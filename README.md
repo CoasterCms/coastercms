@@ -20,7 +20,7 @@ The repository for Coaster CMS (coastercms.org) a Laravel based Content Manageme
 
 We aim to make Coaster CMS as feature rich as possible. Built upon the Laravel PHP framework, Coaster CMS is both fast and secure. Create beautiful content with TinyMCE and take a look into the future with the Internet Of Things.
 
-* Built with Laravel 5 (v5.5)
+* Built with Laravel 5 (v5.8)
 * Responsive file manager
 * WYSIWYG editor
 * Block based templating system
@@ -71,8 +71,8 @@ For more details go to <link>https://www.coastercms.org/documentation/developer-
 <a name="item3"></a>
 ## Add to an Existing Project
 
-If you'd rather add Coaster CMS to an existing Laravel (v5.5) project, follow the steps through below:
+If you'd rather add Coaster CMS to an existing Laravel (v5.8) project, follow the steps through below:
 
-1. Add "web-feet/coasterframework": "5.5.*" to the composer.json file and run composer update
+1. Add "web-feet/coasterframework": "5.8.*" to the composer.json file and run composer update
 2. Add the service providers CoasterCms\CmsServiceProvider::class and CoasterCms\Providers\CoasterRoutesProvider::class, to your config/app.php file (make sure the routes provider is below any app providers as it has some catch all routes).
 3. Run the script <code>php artisan coaster:update-assets</code>

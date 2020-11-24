@@ -10,4 +10,3 @@
 | database. Just tell the factory how a default model should look.
 |
 */
-
