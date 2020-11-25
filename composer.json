@@ -49,6 +49,7 @@
         ],
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan vendor:publish --force --tag coaster.config",
             "php artisan coaster:update-assets"
         ],
         "post-update-cmd": [
