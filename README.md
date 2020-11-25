@@ -74,5 +74,12 @@ For more details go to <link>https://www.coastercms.org/documentation/developer-
 If you'd rather add Coaster CMS to an existing Laravel (v8) project, follow the steps through below:
 
 1. Add "web-feet/coasterframework": "~8.0" to the composer.json file and run composer update
-2. Add the service providers CoasterCms\CmsServiceProvider::class and CoasterCms\Providers\CoasterRoutesProvider::class, to your config/app.php file (make sure the routes provider is below any app providers as it has some catch all routes).
-3. Run the script <code>php artisan coaster:update-assets</code>
+2. Go to you config/app.php file
+3. Add the service provider CoasterCms\CmsServiceProvider::class (ideally before app providers)
+4. Add the service provider CoasterCms\Providers\CoasterRoutesProvider::class (near the end as it registers a catch-all route)
+5. Go to the root directory of your project
+6. Run the script <code>php artisan coaster:update-assets</code>
+7. Manually copy/merge the files in config/publish/ to your root config directory or run script <code>php artisan vendor:publish --force --tag coaster.config</code>
+8. Go to a web browser and follow the install script that should have appeared (on [your url]/install)
+9. Upload or create a theme
+
