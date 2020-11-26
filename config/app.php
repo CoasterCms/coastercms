@@ -165,7 +165,6 @@ return [
         /*
          * Package Service Providers...
          */
-        CoasterCms\CmsServiceProvider::class,
 
         /*
          * Application Service Providers...
