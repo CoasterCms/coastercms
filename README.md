@@ -1,8 +1,8 @@
 <p align="center"><img src="https://www.coastercms.org/uploads/images/logo_coaster_github4.jpg"></p>
 
 <p align="center">
-  <a href="https://packagist.org/packages/web-feet/coastercms"><img src="https://poser.pugx.org/web-feet/coastercms/downloads.svg"></a>
-  <a href="https://packagist.org/packages/web-feet/coastercms"><img src="https://poser.pugx.org/web-feet/coastercms/version.svg"></a>
+  <a href="https://packagist.org/packages/coastercms/coastercms"><img src="https://poser.pugx.org/web-feet/coastercms/downloads.svg"></a>
+  <a href="https://packagist.org/packages/coastercms/coastercms"><img src="https://poser.pugx.org/coastercms/coastercms/version.svg"></a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://poser.pugx.org/web-feet/coastercms/license.svg"></a>
 </p>
 
