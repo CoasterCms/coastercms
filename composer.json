@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Neil Jennings",
-            "email": "neil@web-feet.co.uk"
+            "email": "neilj.cardiff@gmail.com"
         },
         {
             "name": "Daniel Chadwick",
@@ -19,7 +19,7 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "laravel/tinker": "^2.5",
-        "coastercms/framework": "8.x-dev"
+        "coastercms/framework": "~8.0"
     },
     "autoload": {
         "classmap": [
