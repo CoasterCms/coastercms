@@ -1,5 +1,5 @@
 {
-    "name": "web-feet/coastercms",
+    "name": "coastercms/coastercms",
     "description": "Coaster CMS",
     "license": "GPL-3.0-or-later",
     "keywords": ["coaster", "cms", "laravel"],
@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Neil Jennings",
-            "email": "neil@web-feet.co.uk"
+            "email": "neilj.cardiff@gmail.com"
         },
         {
             "name": "Daniel Chadwick",
