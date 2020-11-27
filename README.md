@@ -49,7 +49,7 @@ Get composer:
 Run the following:
 
 <code>
-composer create-project web-feet/coastercms [project-name]
+composer create-project coastercms/coastercms [project-name]
 </code>
 
 Set up a MySQL database to host your content
@@ -74,7 +74,7 @@ For more details go to <link>https://www.coastercms.org/documentation/developer-
 If you'd rather add Coaster CMS to an existing Laravel (v8) project, follow the steps through below:
 
 1. Go to the root directory of your project
-2. Run <code>composer require web-feet/coasterframework:~8.0</code> to install package
+2. Run <code>composer require coastercms/framework:~8.0</code> to install package
 3. Run <code>php artisan coaster:update-assets</code> to download admin assets
 4. Add the provider CoasterCms\Providers\CoasterRoutesProvider::class to your config/app.php file (near end as it registers a catch-all route)
 5. Go to a web browser and follow the install script that should have appeared
